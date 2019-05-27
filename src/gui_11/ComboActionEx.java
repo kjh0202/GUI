@@ -15,7 +15,7 @@ public class ComboActionEx extends JFrame {
 	JLabel imgLabel = new JLabel(images[0]);
 	
 	ComboActionEx() {
-		setTitle("리스트 만들기 예제");
+		setTitle("콤보박스 활용 예제");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		contentPane = getContentPane();
 		contentPane.setLayout(new FlowLayout());
