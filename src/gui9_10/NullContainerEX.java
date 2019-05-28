@@ -23,14 +23,14 @@ public class NullContainerEX extends JFrame{
 			b.setLocation(i*15, i*15);
 			b.setSize(50, 20);
 			c.add(b);
-		}
+		
 		for(int k=10; k<=18; k--) {
 			JButton g = new JButton(Integer.toString(k));
 			g.setLocation(k*55, k*55);
 			g.setSize(50, 20);
 			c.add(g);
 		}
-
+		}
 		this.setSize(300, 200);
 		this.setVisible(true);
 		
